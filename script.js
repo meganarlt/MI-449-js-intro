@@ -1,14 +1,11 @@
-var x_1 = document.getElementById("myAudio_1"); 
-function playAudio_1() { 
-  x_1.play(); 
-} 
+document.getElementById("clap_button").addEventListener("click", function(){ 
+  document.getElementById("clap_audio").play();
+})
 
-var x_2 = document.getElementById("myAudio_2"); 
-function playAudio_2() { 
-  x_2.play(); 
-} 
+document.getElementById("boom_button").addEventListener("click", function(){ 
+  document.getElementById("boom_audio").play();
+})
 
-var x_3 = document.getElementById("myAudio_3"); 
-function playAudio_3() { 
-  x_3.play(); 
-} 
+document.getElementById("hihat_button").addEventListener("click", function(){ 
+  document.getElementById("hihat_audio").play();
+})
